@@ -1,14 +1,41 @@
+Tech Stack Blog Website
+This is a blog website developed using React.js, Next.js, GraphQL, and GraphCMS. The website allows users to read blog posts on various topics related to technology and software development. The website is designed to be fast, responsive, and user-friendly.
+
+Technologies Used
+React.js: A JavaScript library for building user interfaces.
+Next.js: A React framework for building server-side rendered web applications.
+GraphQL: A query language for APIs that allows clients to request only the data they need.
+GraphCMS: A headless content management system that allows developers to create and manage content using a GraphQL API.
+Features
+Responsive design: The website is designed to be responsive and work on all devices, including desktops, tablets, and smartphones.
+Server-side rendering: Next.js is used to render pages on the server, which improves performance and SEO.
+GraphQL API: The website uses a GraphQL API to fetch data from the GraphCMS backend.
+Search functionality: Users can search for blog posts using keywords.
+Pagination: Blog posts are paginated to improve performance and user experience.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Getting Started
+To run the website locally, follow these steps:
 
-First, run the development server:
+Clone the repository:
+bash
 
-```bash
+git clone https://github.com/your-username/tech-stack-blog-website.git
+Install dependencies:
+bash
+
+cd tech-stack-blog-website
+npm install
+Create a .env file in the root directory with the following content:
+makefile
+
+GRAPHCMS_ENDPOINT=your_graphcms_endpoint
+Replace your_graphcms_endpoint with the endpoint URL of your GraphCMS API.
+
+Start the development server:
+
 npm run dev
-# or
-yarn dev
-```
 
 Open [https://teck-stack-blogs.netlify.app/](https://teck-stack-blogs.netlify.app/) with your browser to see the result.
 
